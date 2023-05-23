@@ -13,7 +13,7 @@ func main() {
 		Port:     5432,
 		User:     "user",
 		Password: "Example123+",
-		DbName:   "clean-architecture",
+		DbName:   "cleanarc",
 	}
 
 	db, err := postgres.OpenDB(dcp)
